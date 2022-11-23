@@ -1,23 +1,39 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import Quiz from './pages/Quiz/Quiz';
 import './App.css';
+import Results from './pages/Results/Results';
 
 function App() {
+  const initialPoints = {
+    dramatic: 0,
+    natural: 0,
+    gamine: 0,
+    classic: 0,
+    ingenue: 0,
+    romantic: 0,
+    ethereal: 0,
+  };
+  const [page, setPage] = useState('home');
+  const [results, setResults] = useState(initialPoints);
+
+  function handleResults(points) {
+    setResults(points);
+    setPage('results');
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      {page === 'home' && (
+        <>
+          <h1 className='homeHeader'>Welcome to the essence quiz!!</h1>
+          <button className='beginBtn' onClick={() => setPage('quiz')}>
+            Begin
+          </button>
+        </>
+      )}
+      {page === 'quiz' && <Quiz toResults={handleResults} />}
+      {page === 'results' && (
+        <Results results={results} toHome={() => setPage('home')} />
+      )}
     </div>
   );
 }
