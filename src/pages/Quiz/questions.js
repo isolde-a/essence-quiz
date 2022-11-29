@@ -3,7 +3,7 @@ export const questions = [
     question: 'Loved ones describe my personality as:',
     options: [
       {
-        optionText: 'Sophisticated',
+        optionText: 'Bougie',
         score: {
           dramatic: 1,
           natural: 0,
@@ -15,7 +15,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Mature',
+        optionText: 'Responsible',
         score: {
           dramatic: 1,
           natural: 1,
@@ -27,7 +27,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Youthful',
+        optionText: 'Child-like',
         score: {
           dramatic: 0,
           natural: 0,
@@ -39,7 +39,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Serious',
+        optionText: 'Leader-like',
         score: {
           dramatic: 1,
           natural: 0,
@@ -55,7 +55,7 @@ export const questions = [
         score: {
           dramatic: 0,
           natural: 0,
-          gamine: 1,
+          gamine: 0,
           classic: 0,
           ingenue: 1,
           romantic: 0,
@@ -99,7 +99,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Wise',
+        optionText: 'Introspective',
         score: {
           dramatic: 0,
           natural: 0,
@@ -110,10 +110,123 @@ export const questions = [
           ethereal: 1,
         },
       },
+      {
+        optionText: 'Reserved or shy',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 1,
+          romantic: 0,
+          ethereal: 1,
+        },
+      },
+      {
+        optionText: 'Charming and/or flirty',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 1,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Chaotic and/or unhinged',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 1,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Spicy',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 1,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Well-mannered',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 1,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Calm',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 1,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
     ],
   },
   {
-    question: 'Loved ones describe my appearance as:',
+    question: 'People think that I:',
+    options: [
+      {
+        optionText: 'Appear/act younger than my age',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 1,
+          classic: 0,
+          ingenue: 1,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Appear/act my actual age',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 1,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Appear/act more mature than my age',
+        score: {
+          dramatic: 1,
+          natural: 1,
+          gamine: 0,
+          classic: 1,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 1,
+        },
+      },
+    ]
+  },
+  {
+    question: 'Friends and loved ones describe my appearance as:',
     options: [
       {
         optionText: 'Sophisticated',
@@ -164,11 +277,11 @@ export const questions = [
         },
       },
       {
-        optionText: 'Cute',
+        optionText: 'Sweet and/or innocent',
         score: {
           dramatic: 0,
           natural: 0,
-          gamine: 1,
+          gamine: 0,
           classic: 0,
           ingenue: 1,
           romantic: 0,
@@ -176,7 +289,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Friendly',
+        optionText: 'Warm and approachable',
         score: {
           dramatic: 0,
           natural: 1,
@@ -205,7 +318,7 @@ export const questions = [
           dramatic: 0,
           natural: 0,
           gamine: 0,
-          classic: 0,
+          classic: 1,
           ingenue: 0,
           romantic: 1,
           ethereal: 1,
@@ -235,6 +348,659 @@ export const questions = [
           ethereal: 1,
         },
       },
+      {
+        optionText: 'Clean and put together',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 1,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Intimidating',
+        score: {
+          dramatic: 1,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
     ],
   },
+  {
+    question: 'My eyebrows appear:',
+    options: [
+      {
+        optionText: 'Sharply defined and/or angular',
+        score: {
+          dramatic: 1,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Straight',
+        score: {
+          dramatic: 0,
+          natural: 1,
+          gamine: 0,
+          classic: 0,
+          ingenue: 1,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Full and/or dark',
+        score: {
+          dramatic: 1,
+          natural: 1,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Pointed and/or peaked',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 1,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Gently arched',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 1,
+          ingenue: 1,
+          romantic: 1,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Not overly heavy, but not too thin',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 1,
+          ingenue: 0,
+          romantic: 1,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Delicate',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 1,
+          romantic: 0,
+          ethereal: 1,
+        },
+      },
+      {
+        optionText: 'Thin',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 1,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 1,
+        },
+      },
+    ],
+  },
+  {
+    question: 'My eyes appear:',
+    options: [
+      {
+        optionText: 'Angled',
+        score: {
+          dramatic: 1,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Deep set',
+        score: {
+          dramatic: 1,
+          natural: 1,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Close set',
+        score: {
+          dramatic: 1,
+          natural: 1,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Average sized for my face',
+        score: {
+          dramatic: 0,
+          natural: 1,
+          gamine: 1,
+          classic: 1,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Large for my face',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 1,
+          romantic: 1,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Rounded',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 1,
+          classic: 0,
+          ingenue: 1,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Upturned',
+        score: {
+          dramatic: 1,
+          natural: 0,
+          gamine: 1,
+          classic: 0,
+          ingenue: 0,
+          romantic: 1,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Downturned',
+        score: {
+          dramatic: 0,
+          natural: 1,
+          gamine: 0,
+          classic: 0,
+          ingenue: 1,
+          romantic: 0,
+          ethereal: 1,
+        },
+      },
+      {
+        optionText: 'Wide set',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 1,
+        },
+      },
+      {
+        optionText: 'Heavy lidded',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 1,
+          ethereal: 1,
+        },
+      },
+    ]
+  },
+  {
+    question: 'My nose appears:',
+    options: [
+      {
+        optionText: 'Straight',
+        score: {
+          dramatic: 1,
+          natural: 0,
+          gamine: 0,
+          classic: 1,
+          ingenue: 0,
+          romantic: 1,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Long',
+        score: {
+          dramatic: 1,
+          natural: 1,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 1,
+          ethereal: 1,
+        },
+      },
+      {
+        optionText: 'Pointed',
+        score: {
+          dramatic: 1,
+          natural: 0,
+          gamine: 1,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 1,
+        },
+      },
+      {
+        optionText: 'Convex',
+        score: {
+          dramatic: 1,
+          natural: 1,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Strong shaped',
+        score: {
+          dramatic: 0,
+          natural: 1,
+          gamine: 1,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Wide',
+        score: {
+          dramatic: 0,
+          natural: 1,
+          gamine: 1,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Short',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 1,
+          classic: 0,
+          ingenue: 1,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Upturned',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 1,
+          classic: 0,
+          ingenue: 1,
+          romantic: 1,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Average sized',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 1,
+          ingenue: 0,
+          romantic: 1,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Delicate',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 1,
+          romantic: 1,
+          ethereal: 1,
+        },
+      },
+      {
+        optionText: 'Small',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 1,
+          classic: 0,
+          ingenue: 1,
+          romantic: 0,
+          ethereal: 1,
+        },
+      },
+      {
+        optionText: 'Flat',
+        score: {
+          dramatic: 0,
+          natural: 1,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Low nose bridge',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 1,
+        },
+      },
+    ]
+  },
+  {
+    question: 'I have the following face shape:',
+    options: [
+      {
+        optionText: 'Oval',
+        score: {
+          dramatic: 1,
+          natural: 0,
+          gamine: 0,
+          classic: 1,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Round',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 1,
+          romantic: 1,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Heart-shaped face',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 1,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Square or rectangular',
+        score: {
+          dramatic: 0,
+          natural: 1,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Trigular',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 1,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+    ]
+  },
+  {
+    question: 'My facial structure is/has:',
+    options: [
+      {
+        optionText: 'Long',
+        score: {
+          dramatic: 1,
+          natural: 1,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 1,
+        },
+      },
+      {
+        optionText: 'Pronounced cheekbones',
+        score: {
+          dramatic: 1,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Angular',
+        score: {
+          dramatic: 1,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Small',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 1,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Apple cheeked',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 1,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Small and/or pointed chin',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 1,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Rounded cheeks or chin',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 1,
+          romantic: 1,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Wide forehead',
+        score: {
+          dramatic: 0,
+          natural: 1,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+      {
+        optionText: 'Soft cheekbones',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 1,
+          romantic: 1,
+          ethereal: 1,
+        },
+      },
+      {
+        optionText: 'Symmetrical',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+    ]
+  },
+
+  {
+    question: 'People think that I:',
+    options: [
+      {
+        optionText: 'Appear/act younger than my age',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+    ]
+  },
+  {
+    question: 'People think that I:',
+    options: [
+      {
+        optionText: 'Appear/act younger than my age',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+    ]
+  },
+  {
+    question: 'People think that I:',
+    options: [
+      {
+        optionText: 'Appear/act younger than my age',
+        score: {
+          dramatic: 0,
+          natural: 0,
+          gamine: 0,
+          classic: 0,
+          ingenue: 0,
+          romantic: 0,
+          ethereal: 0,
+        },
+      },
+    ]
+  }
 ];
