@@ -813,7 +813,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Trigular',
+        optionText: 'Triangular',
         score: {
           dramatic: 0,
           natural: 0,
