@@ -60,18 +60,14 @@ export default function Quiz({ toResults }) {
   }
 
   return (
-    <div>
+    <div className='questionContainer'>
       <h1 className='quizHeader'>{questions[currentQuestion].question}</h1>
-      <ul>
-        {questions[currentQuestion].options.map((o, i) => (
-          <div key={'q_' + currentQuestion + 'o_' + i}>
-            <label htmlFor={'q_' + currentQuestion + 'option_' + i}>
-              <input type='checkbox' id={'q_' + currentQuestion + 'option_' + i} onChange={(event) => handleChange(event, o.score)}/>
-              {o.optionText}
-            </label>
-          </div>
-        ))}
-      </ul>
+      {questions[currentQuestion].options.map((o, i) => (
+        <label key={'q_' + currentQuestion + 'o_' + i} htmlFor={'q_' + currentQuestion + 'option_' + i} className='form-control'>
+          <input type='checkbox' id={'q_' + currentQuestion + 'option_' + i} onChange={(event) => handleChange(event, o.score)} className='optionBox' />
+          {o.optionText}
+        </label>
+      ))}
       <button onClick={handleNextClick}>Next</button>
     </div>
   );

@@ -1,3 +1,52 @@
+input[type="checkbox"] {
+  appearance: none;
+  background-color: #fff;
+  margin: auto;
+  font: inherit;
+  color: maroon;
+  width: 16px;
+  height: 16px;
+  border-radius: 0.15em;
+  /* transform: translateY(-0.075em); */
+  display: grid;
+  place-content: center;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  border-radius: 0.15em;
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+  background-color: maroon;
+}
+
+.questionContainer {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .quizHeader {
   color: maroon;
+}
+
+.form-control {
+  font-size: 24px;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 8px;
+  width: fit-content;
+  color: maroon;
+}
+
+.form-control + .form-control {
+  margin-top: 24px;
 }
