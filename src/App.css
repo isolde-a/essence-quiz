@@ -1,22 +1,23 @@
 .App {
   text-align: center;
   height: 100%;
+  color: #58007E;
 }
 
 .homeHeader {
-  color: maroon;
+  color: #58007E;
 }
 
 .beginBtn {
-  color: maroon;
+  color: #58007E;
 }
 
 button {
-  margin-top: 24px;
-  background-color: white;
+  margin: 24px 0 56px 0 ;
+  background-color: rgba(255,255,255, 0.7);
   border: none;
   border-radius: 12px;
   font-size: 24px;
   padding: 8px 12px;
-  color:maroon;
+  color: #58007E;
 }

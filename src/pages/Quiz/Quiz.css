@@ -3,11 +3,10 @@ input[type="checkbox"] {
   background-color: #fff;
   margin: auto;
   font: inherit;
-  color: maroon;
+  color: #58007E;
   width: 16px;
   height: 16px;
   border-radius: 0.15em;
-  /* transform: translateY(-0.075em); */
   display: grid;
   place-content: center;
 }
@@ -24,7 +23,7 @@ input[type="checkbox"]::before {
 
 input[type="checkbox"]:checked::before {
   transform: scale(1);
-  background-color: maroon;
+  background-color: #58007E;
 }
 
 .questionContainer {
@@ -35,7 +34,7 @@ input[type="checkbox"]:checked::before {
 }
 
 .quizHeader {
-  color: maroon;
+  color: #58007E;
 }
 
 .form-control {
@@ -44,7 +43,7 @@ input[type="checkbox"]:checked::before {
   grid-template-columns: 1em auto;
   gap: 8px;
   width: fit-content;
-  color: maroon;
+  color: #58007E;
 }
 
 .form-control + .form-control {

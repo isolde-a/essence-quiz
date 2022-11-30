@@ -42,11 +42,11 @@ export default function Quiz({ toResults }) {
   function handleChange(event, score) {
     if (event.target.checked) {
       const addScores = sumObjects(points, score);
-      console.log('add scores', addScores);
+      // console.log('add scores', addScores);
       setPoints(addScores);
     } else {
       const subScores = subObjects(score);
-      console.log('sub scores', subScores);
+      // console.log('sub scores', subScores);
       setPoints(subScores);
     }
   }

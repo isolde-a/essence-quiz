@@ -789,7 +789,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Heart-shaped face',
+        optionText: 'Heart-shaped',
         score: {
           dramatic: 0,
           natural: 0,
@@ -979,7 +979,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Full/Heavy lips',
+        optionText: 'Full lips',
         score: {
           dramatic: 1,
           natural: 0,
@@ -1075,7 +1075,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Defined Cupids Bow',
+        optionText: "Defined cupid's bow",
         score: {
           dramatic: 0,
           natural: 0,
@@ -1089,10 +1089,10 @@ export const questions = [
     ],
   },
   {
-    question: 'My hair/hairstyle can be described as:',
+    question: 'I like the following hairstyles on me:',
     options: [
       {
-        optionText: 'Center/Middle Part',
+        optionText: 'Center/middle part',
         score: {
           dramatic: 1,
           natural: 0,
@@ -1104,7 +1104,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Slicked Back',
+        optionText: 'Slicked back',
         score: {
           dramatic: 1,
           natural: 0,
@@ -1116,7 +1116,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Widows Peak',
+        optionText: "Widow's peak",
         score: {
           dramatic: 1,
           natural: 0,
@@ -1188,7 +1188,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Dreadlocks',
+        optionText: 'Locks',
         score: {
           dramatic: 0,
           natural: 1,
@@ -1236,7 +1236,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Shaggy Layers',
+        optionText: 'Shaggy layers',
         score: {
           dramatic: 0,
           natural: 0,
@@ -1308,7 +1308,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Side Part',
+        optionText: 'Side part',
         score: {
           dramatic: 0,
           natural: 0,
@@ -1385,7 +1385,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'my actual height',
+        optionText: 'My actual height',
         score: {
           dramatic: 0,
           natural: 0,
@@ -1450,7 +1450,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Luxurious fabrics (e.g. silk, satin, etc)',
+        optionText: 'Luxurious fabrics like silk and satin',
         score: {
           dramatic: 0,
           natural: 0,
@@ -1462,7 +1462,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Soft breathable fabrics',
+        optionText: 'Soft and/or breathable fabrics like cotton or linen',
         score: {
           dramatic: 0,
           natural: 1,
@@ -1474,7 +1474,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Timeless styles (rather than trendy)',
+        optionText: 'Timeless styles',
         score: {
           dramatic: 0,
           natural: 0,
@@ -1522,7 +1522,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Cute, doll-like accessories and clothing',
+        optionText: 'Cute or doll-like accessories and clothing',
         score: {
           dramatic: 0,
           natural: 0,
@@ -1535,7 +1535,7 @@ export const questions = [
       },
       {
         optionText:
-          'Clothes with intricate and delicate detailing (e.g. beading, lace)',
+          'Clothes with intricate and delicate detailing like beading or lace',
         score: {
           dramatic: 0,
           natural: 0,
@@ -1701,7 +1701,7 @@ export const questions = [
     question: 'Pick the expressions that you relate with:',
     options: [
       {
-        optionText: 'Danger can be interesting, boredom is death',
+        optionText: "'Danger can be interesting, boredom is death'",
         score: {
           dramatic: 1,
           natural: 0,
@@ -1713,7 +1713,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Comfort first and foremost',
+        optionText: "'Comfort first and foremost'",
         score: {
           dramatic: 0,
           natural: 1,
@@ -1725,7 +1725,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Would go crazy working in a cubicle',
+        optionText: "'Would go crazy working in a cubicle'",
         score: {
           dramatic: 0,
           natural: 0,
@@ -1738,7 +1738,7 @@ export const questions = [
       },
       {
         optionText:
-          'Able to be both a leader of others and to be a fair team player',
+          "'Able to be both a leader of others and to be a fair team player'",
         score: {
           dramatic: 0,
           natural: 0,
@@ -1750,7 +1750,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Secretly attracted to naughty people',
+        optionText: "'Secretly attracted to naughty people'",
         score: {
           dramatic: 0,
           natural: 0,
@@ -1762,7 +1762,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Life is a party',
+        optionText: "'Life is a party'",
         score: {
           dramatic: 0,
           natural: 0,
@@ -1774,7 +1774,7 @@ export const questions = [
         },
       },
       {
-        optionText: 'Appears as if from another era – or another world',
+        optionText: "'Appears as if from another era – or another world'",
         score: {
           dramatic: 0,
           natural: 0,
@@ -1783,23 +1783,6 @@ export const questions = [
           ingenue: 0,
           romantic: 0,
           ethereal: 1,
-        },
-      },
-    ],
-  },
-  {
-    question: 'TEMPLATE QUESTION',
-    options: [
-      {
-        optionText: 'TEMPLATE OPTION',
-        score: {
-          dramatic: 0,
-          natural: 0,
-          gamine: 0,
-          classic: 0,
-          ingenue: 0,
-          romantic: 0,
-          ethereal: 0,
         },
       },
     ],

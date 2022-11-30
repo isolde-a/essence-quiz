@@ -20,11 +20,20 @@ function App() {
     setResults(points);
     setPage('results');
   }
+
+  function handleHome() {
+    setResults(initialPoints);
+    setPage('home');
+  }
+
+
   return (
     <div className='App'>
       {page === 'home' && (
         <>
-          <h1 className='homeHeader'>Welcome to the essence quiz!!</h1>
+          <h1 className='homeHeader'>The Essence Quiz</h1>
+          <h4>A quiz to find your personal style based on your personality and facial appearance.</h4>
+          <p>This quiz is inspired by, and quotes Andrea Pflaumer and her book "Shopping for the Real You"</p>
           <button className='beginBtn' onClick={() => setPage('quiz')}>
             Begin
           </button>
@@ -32,7 +41,7 @@ function App() {
       )}
       {page === 'quiz' && <Quiz toResults={handleResults} />}
       {page === 'results' && (
-        <Results results={results} toHome={() => setPage('home')} />
+        <Results results={results} toHome={handleHome} />
       )}
     </div>
   );
